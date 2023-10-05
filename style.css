@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap');
+
+
+
+*{
+    /* width: 100%;
+    height: 100%; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color: white;
+}
+
+body{
+    background-color: #bae8e8;
+}
+
+#panel{
+    background-color: red;
+    margin: 70px auto;
+    height: 60%;
+    width: 60%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 10px 0 #aacdcd;
+}
+
+#panelHeader{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: #272643;
+}
+
+.column{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerText1{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.headerText2{
+    padding: 7px 14px;
+    color: #272643;
+    background-color: #ffffff;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 40px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#panelBody{
+    background-color: #ffffff;
+    display: flex;
+    gap: 16px;
+    padding: 34px;
+    flex-wrap: wrap;
+}
+
+.bubble{
+    height: 50px;
+    width: 50px;
+    background-color: #2c698d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bubble:hover{
+    background-color: #272643;
+}
+
+#timeOut{
+    color: #272643;
+    margin: auto;
+    text-align: center;
+}
